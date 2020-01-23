@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('GITPOD_LOCALHOST', 'localhost')]
+ALLOWED_HOSTS = [os.environ.get('GITPOD_LOCALHOST', 'localhost', 'ecommers-miniproject.herokuapp.com')]
 
 
 # Application definition
